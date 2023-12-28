@@ -33,7 +33,7 @@ const Menu = () => {
             faizan
            
           </Typography>
-          <StyledLink to="/">Home</StyledLink>
+          <StyledLink to="/student">Home</StyledLink>
           <StyledLink to="/student">student</StyledLink>
           <StyledLink to="/contact-us">ContactUS</StyledLink>
           

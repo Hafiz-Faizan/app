@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Im
 import MainPage from './component/mainPage';
 import Student from './component/Student';
 import ContactUs from './component/ContactUs';
+import AddStudent from './component/AddStudent';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Menu></Menu>
           {/* Wrap Routes around Route */}
           <Routes>
+            <Route path="/student/new" element={<AddStudent/>} />
             <Route path="/contact-us" element={<ContactUs/>} />
             <Route path="/student" element={<Student/>} />
             <Route path="/" element={<MainPage />} />
